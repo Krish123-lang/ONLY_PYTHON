@@ -1,3 +1,5 @@
+# Args are treated as tuple, so we can access the values using indexes
+
 '''
 def greet(name):
     return f"Hello, {name}"
