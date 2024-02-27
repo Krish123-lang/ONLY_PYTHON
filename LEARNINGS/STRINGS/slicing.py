@@ -1,9 +1,9 @@
 a="Hello Caterpillara"
-# print(a[::2]) # HloWrd
+# print(a[::2]) # HloCtrilr
 
-# print(a[:5]) # Hello
+#print(a[:5]) # Hello
 
-# print(a[2:]) # llo World
+#print(a[2:]) # llo Caterpillara
 
 # print(a[-5:-2]) # lla
 
