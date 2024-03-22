@@ -26,6 +26,5 @@ txt="Python \bProgramming" # PythonProgramming
 # form feed. I don't know what it is.
 txt="Python \fProgramming" # Python ♀Programming
 
-print(txt) 
-
+print(txt)
 

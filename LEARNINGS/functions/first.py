@@ -7,7 +7,7 @@ n = greet(name)
 print(n)
 '''
 
-
+'''
 def sum(a, b):
     return f"The sum of {a} and {b} is: {a+b}"
 
@@ -17,3 +17,12 @@ b = int(input("Enter second number: "))
 
 a = sum(a, b)
 print(a)
+'''
+
+
+def greet(name, message='Hi'):
+    return f"{message} {name}"
+
+
+greeting = greet('John')
+print(greeting)
