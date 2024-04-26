@@ -1,21 +1,28 @@
-'''
-def area(r):
-	#print(3.14*r*r)
-	arc=3.14*r*r
-	return arc
+'''def greet(name):
+    return f"Hello, {name}"
 
-radius=float(input("Enter radius: "))
-a=area(radius)
+
+name = input("Enter your name: ")
+n = greet(name)
+print(n)
+'''
+
+'''
+def sum(a, b):
+    return f"The sum of {a} and {b} is: {a+b}"
+
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+a = sum(a, b)
 print(a)
 '''
 
-# to calculate factorial using recursion
-def factorial(x):
-    if x==1:
-        return 1
-    else:
-        return x*factorial(x-1)
 
-num=int(input("enter the number: "))
-print(f"The factorial of {num} is: {factorial(num)} ")
+def greet(name, message='Hi'):
+    return f"{message} {name}"
 
+
+greeting = greet('John')
+print(greeting)
