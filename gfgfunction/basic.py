@@ -133,17 +133,32 @@ res=lambda x,y:(x+y, x*y)
 # print(res(5,3)) # (8, 15)
 
 # ------------------------------
+# ***  Filter function ***
+
 # Pick items that meet a condition
 n=[1,2,3,4,5]
 even=filter(lambda x: x%2==0, n)
 # print(list(even)) # [2, 4]
+
+# ***  Map function ***
 
 # Apply a function to every item in a list
 numbers=[1,2,3,4,5]
 even=list(map(lambda x: x*2, numbers))
 # print(even)
 
+fruits=['apple', 'banana', 'cherry']
+caps=list(map(lambda x: x.upper(), fruits))
+first_words=list(map(lambda a: a[0], fruits))
+# print(first_words) # ['a', 'b', 'c']
+# print(caps) # ['APPLE', 'BANANA', 'CHERRY']
+
+temperatures=[0, 24, 90, 98, 104]
+f_to_c=list(map(lambda c: (c*9/5) + 32, temperatures))
+# print(f_to_c) # [32.0, 75.2, 194.0, 208.4, 219.2]
+
+# ***  Reduce function ***
 # Reduce a list to a single value
 num=[1,2,3,4,5]
 red=reduce(lambda x,y: x*y, num)
-print(red) # 120
+# print(red) # 120
